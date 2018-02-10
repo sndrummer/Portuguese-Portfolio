@@ -1,0 +1,234 @@
+body{font-family: 'Verdana';
+font-style: normal;
+font-weight: bold;
+}
+
+.myHeader{
+   opacity: .7;  
+   opacity: .7;
+   border: 5px solid rgb(2, 0, 0);
+   margin: 15px;
+   padding: 5px;
+   background-color: #1A1717;
+   border-radius: 25px;
+   box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+   color: white;
+   padding: 2px; 
+   width: auto;
+}
+
+.myFooter{
+    opacity: .7;
+    border: 5px solid rgb(2, 0, 0);
+    margin: 15px;
+    padding: 5px;
+    
+}
+.icon{
+    padding: 10px;
+}
+span.underline {
+    text-decoration: underline;
+}
+
+ul{
+    font-size: 120%;
+    font-weight: bold;
+    display:inline-block;
+}
+
+ol{
+    font-size: 120%;
+    font-weight: bold;
+    display:inline-block;
+}
+
+li{
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 35px;
+}
+
+h1{
+    font-size: 220%;
+}
+
+#mainContainer{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+#centeredImage{
+    display: block;
+    width: 70%;
+    border-radius:4%;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    position: relative; 
+    z-index: 1; 
+    margin: auto; 
+    
+    /* How to center an image 
+    You need to make an image a block like this so that it will center    
+    */
+}
+
+/*
+
+*/
+
+#buttonBox{
+    padding: 15px;
+    border-radius:15%;
+    background: #4B4949;
+    z-index: 2;
+   height: auto;
+
+    /*THE FOLLOWING IS TO center text (horizontally and vertically) inside a div block *********/
+    /*can be in percentage also.*/
+    width:300px;
+    
+    margin-left:-164px;
+    left:50%;
+    top:50%;
+    position: absolute;  
+}
+
+/* THE BUTTONS *********************************************************************
+***********************************************************************************/
+#button1{
+    left:50%;
+    top:30%; 
+}
+#button2{
+    
+    left:50%;
+    top:40%; 
+}
+#button3{
+    left:50%;
+    top:50%; 
+}
+/************************************************************************************
+***********************************************************************************/
+
+/*Buttons in the middle of the middle of the page that link to things */
+.button{
+    /* Add some javascript so that when hovering above a button it changes colors   
+    */
+    padding: 15px;
+    border-radius:15%;
+    background: #4B4949;
+    z-index: 2;
+    
+    opacity: .7;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;  
+    width:300px;
+    margin-left:-164px;
+    margin-top: 20px;
+    /*Style of text in buttons*/
+    font-weight: normal;
+}
+
+.mouseOverButton{
+    padding: 15px;
+    border-radius:15%;
+    background: #0A0909;
+    z-index: 2;
+    color: #DDE00E;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;  
+    width:300px;
+    margin-left:-164px;
+    margin-top: 20px;
+    /*Style of text in buttons*/
+    font-weight: normal;
+}
+
+.rcorners {
+    border-radius: 25px;
+    background: #B4B4B9;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
+div.container1{
+    position: relative;
+    height: 500px;
+}
+
+div.container1 p{
+    margin: 0;
+    background: yellow;
+    position: absolute;
+}
+/*************************************************************************************************************************************************** */
+/*ABOUT ME */
+body.aboutMePage{
+    background-image: url('vader.jpg');  
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#info{
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+
+.header-light{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    
+}
+.home{
+    color: yellow;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 150%;
+    /**/
+    margin-left: 92%;
+    position: absolute;
+    
+}
+.footer-about-me{
+    opacity: .7;
+    border: 5px solid rgb(2, 0, 0);
+    margin: 15px;
+    padding: 5px;
+    background-color: #1A1717;
+    text-align: left;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: white;   
+}
+/*************************************************************************************************************************************************** */
+/*Projects Page */
+body.projectsPage{
+    background-image: url('projects.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#project-list{
+   
+}
+
+
+
+/*************************************************************************************************************************************************** */
+/*Work Experience Page */
+body.workExperiencePage{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('projects.jpg');
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="main.css">
+
+   <script type="text/javascript">
+   //Selecting the box/button
+      function animateBoxSelected(mouseOver, buttonId) {
+        if (mouseOver == true) {
+         // alert('Something is happening ' + mouseOver + '  ' + buttonId);
+          document.getElementById(buttonId).classList.add('mouseOverButton');
+        } else 
+        {
+          document.getElementById(buttonId).classList.remove('mouseOverButton');
+        }
+        
+        return false;
+      }
+    </script>
+    </head>
+
+<body>
+    <!-- Header -->
+<header class="myHeader"> 
+        <h1 ><center>MY PORTFOLIO</center></h1>
+        <h2><center>Welcome to the portfolio of <span class="name">Samuel Nuttall</span></center></h2>
+      </header>
+     
+    <div id=mainContainer> 
+      <img id="centeredImage" src="me1.png">
+      <div=id"buttonBox">
+        <a href="aboutMe.html" class="button" id="button1" onmouseover="javascript:animateBoxSelected(true,'button1');" 
+        onmouseout="javascript:animateBoxSelected(false,'button1');">About Me</a>
+        <a href="projects.html" class="button" id="button2" onmouseover="javascript:animateBoxSelected(true,'button2');" 
+        onmouseout="javascript:animateBoxSelected(false,'button2');">Projects</a>
+        <a href="workExperience.html" class="button" id="button3" onmouseover="javascript:animateBoxSelected(true,'button3');" 
+        onmouseout="javascript:animateBoxSelected(false,'button3');">Work Experience</a>
+      </div>
+        
+          <!-- 
+        <p>This is a test paragraph…
+            <a href="http://google.com" class="btn btn-default">Go to Google</a>
+        </p>
+      </div>
+    -->
+</div>
+      <footer class="myFooter">
+          See more at 
+          <a href="https://github.com/sndrummer">
+            <img class="icon" src="GitHub-Mark-64px.png">Github 
+        </a>
+        <a href="https://www.linkedin.com/in/samuel-nuttall-ba4648148/">
+            <img src="In-2C-54px-TM.png">LinkedIn  
+        </a>
+        <center>Contact me: sndrummer@gmail.com</center>  
+      </footer>
+</body>
+</html>
